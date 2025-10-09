@@ -20,7 +20,7 @@ my_fastapi_app/
             db = SessionLocal()
             try:
                 yield db
-            finally:
+           
                 db.close()
 
         @app.get("/", response_class=HTMLResponse)
