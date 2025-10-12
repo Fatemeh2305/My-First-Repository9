@@ -9,7 +9,7 @@ my_fastapi_app/
         from database import SessionLocal, engine
        
         from auth import get_current_user, register_user, login_user
-        from models import Message
+        from models import 
 
         models.Base.metadata.create_all(bind=engine)
 
