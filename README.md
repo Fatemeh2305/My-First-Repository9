@@ -7,6 +7,7 @@ my_fastapi_app/
         from fastapi.templating import Jinja2Templates
         from sqlalchemy.orm import Session
         from database import SessionLocal, engine
+        else:
        
         from auth import get_current_user, register_user, login_user
         from models import 
