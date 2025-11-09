@@ -13,6 +13,7 @@ my_fastapi_app/
         from models import :py
 
         models.Base.metadata.create_all(bind=engine)
+        db.close()
 
         app = FastAPI()
         templates = Jinja2Templates(directory="templates")
