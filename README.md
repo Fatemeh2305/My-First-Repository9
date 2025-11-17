@@ -20,7 +20,7 @@ my_fastapi_app/
 
         def get_db():
             db = SessionLocal()
-            try:
+            try:in
                 yield db
            
                 db.close()
