@@ -10,7 +10,7 @@ my_fastapi_app/
         else:
        
         from auth import get_current_user, register_user, login_user
-        from models import :py
+      
 
         models.Base.metadata.create_all(bind=engine)
         db.close()
