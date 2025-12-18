@@ -74,7 +74,7 @@ my_fastapi_app/
             return templates.TemplateResponse("admin.html", {"request": request, "user": user, "messages": messages})
 
 ├── database.py
-│   └──
+│   └──response
         from sqlalchemy import create_engine
         from sqlalchemy.ext.declarative import declarative_base
         from sqlalchemy.orm import sessionmaker
