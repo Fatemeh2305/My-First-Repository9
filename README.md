@@ -8,6 +8,7 @@ my_fastapi_app/
         from sqlalchemy.orm import Session
         from database import SessionLocal, engine
         else:
+        )str
        
         from auth import get_current_user, register_user, login_user
       
